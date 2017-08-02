@@ -1,0 +1,29 @@
+{
+  "name": "slides-beerjs-26",
+  "version": "0.0.1",
+  "description": "API con Koajs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run open && npm run watch",
+    "open": "opn docs/index.html",
+    "watch": "cleaver watch index.md --output docs/index.html",
+    "build": "cleaver index.md --output docs/index.html",
+    "test": "echo \"No se como testear esto\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgaticaq/slides-beerjs-26.git"
+  },
+  "keywords": [],
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgaticaq/slides-beerjs-26/issues"
+  },
+  "homepage": "https://github.com/lgaticaq/slides-beerjs-26#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cleaver": "^0.8.5",
+    "opn-cli": "^3.1.0"
+  }
+}
